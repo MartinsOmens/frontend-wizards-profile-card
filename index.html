@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <article data-testid="test-profile-card" class="profile-card">
+      <figure>
+        <img
+          data-testid="test-user-avatar"
+          src="./images/image-4.png"
+          alt="Profile Photo"
+          class="profile-image"
+        />
+      </figure>
+
+      <div class="profile-info">
+        <header>
+          <h2 data-testid="test-user-name" class="profile-username">
+            Martins Chibueze
+          </h2>
+        </header>
+
+        <p data-testid="test-user-bio" class="profile-bio">
+          Frontend developer passionate about design, accessibility, and clean code.
+        </p>
+
+        <p class="time">
+            Current time: <span data-testid="test-user-time"></span>
+        </p>
+
+        <nav data-testid="test-user-social-links">
+          <ul class="nav-links">
+            <li>
+              <a
+                data-testid="test-user-social-twitter"
+                href="https://x.com/ChrisMarti94875"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="bx bxl-twitter"></i
+              ></a>
+            </li>
+
+            <li>
+              <a
+                data-testid="test-user-social-github"
+                href="https://github.com/MartinsOmens"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="bx bxl-github"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="profile-details">
+          <section>
+            <h3>Hobbies:</h3>
+            <ul data-testid="test-user-hobbies">
+              <li>Reading</li>
+              <li>Listening to Music</li>
+              <li>Sports</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>Dislikes:</h3>
+            <ul data-testid="test-user-dislikes">
+              <li>Spam emails</li>
+              <li>Procrastination</li>
+              <li>Laziness</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </article>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
