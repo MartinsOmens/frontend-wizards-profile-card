@@ -6,15 +6,16 @@ This project is part of the **HNG Internship (Stage 0 Frontend Task)**.
 ---
 
 ## 💻 Live Demo
-🔗 **Live Site:** [https://frontend-wizards-profile-card.netlify.app/](https://frontend-wizards-profile-card.netlify.app/)  
+
+🔗 **Live Site:** [https://martinsfrontend-card.netlify.app/](https://martinsfrontend-card.netlify.app/)  
 🔗 **GitHub Repository:** [https://github.com/MartinsOmens/frontend-wizards-profile-card](https://github.com/MartinsOmens/frontend-wizards-profile-card)
 
 ---
 
-
 ## 📘 Description
 
 This Profile Card displays a user’s:
+
 - 👤 **Name** and **avatar**
 - 📝 **Short biography**
 - 🕒 **Current time in milliseconds** (updates every second)
@@ -22,6 +23,7 @@ This Profile Card displays a user’s:
 - 🎯 **Hobbies and dislikes**
 
 The component is:
+
 - Fully **responsive** (mobile → desktop)
 - **Accessible** (semantic HTML, focusable links, `alt` text)
 - **Testable** (includes all required `data-testid` attributes for automated testing)
@@ -35,3 +37,4 @@ To run this project locally:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/MartinsOmens/frontend-wizards-profile-card.git
+   ```
