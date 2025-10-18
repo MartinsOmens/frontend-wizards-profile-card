@@ -11,6 +11,7 @@ This project is part of the **HNG Internship (Stage 0 Frontend Task)**.
 
 ---
 
+
 ## 📘 Description
 
 This Profile Card displays a user’s:

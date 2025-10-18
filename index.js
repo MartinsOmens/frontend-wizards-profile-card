@@ -1,7 +1,10 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const timeElement = document.querySelector('[data-testid="test-user-time"]');
 
-const timeElement = document.querySelector('[data-testid="test-user-time"]');
-timeElement.textContent = Date.now();
+  const updateTime = () => {
+    timeElement.textContent = Date.now();
+  };
 
-setInterval(() => {
-  timeElement.textContent = Date.now();
-}, 1000);
+  updateTime();
+  setInterval(updateTime, 1000);
+});
