@@ -130,7 +130,7 @@ body {
 @media (min-width: 768px) {
   .profile-card {
     flex-direction: row;
-    /* align-items: start; */
+    align-items: center;
     justify-content: space-between;
     text-align: left;
   }
@@ -148,7 +148,7 @@ body {
 
   .profile-details {
     flex-direction: row; 
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
 
   
