@@ -7,7 +7,7 @@ This project is part of the **HNG Internship (Stage 0 Frontend Task)**.
 
 ## 💻 Live Demo
 
-🔗 **Live Site:** [https://martinsfrontend-card.netlify.app/](https://martinsfrontend-card.netlify.app/)  
+🔗 **Live Site:** [https://martins-hng-task0.netlify.app/](https://martins-hng-task0.netlify.app/)  
 🔗 **GitHub Repository:** [https://github.com/MartinsOmens/frontend-wizards-profile-card](https://github.com/MartinsOmens/frontend-wizards-profile-card)
 
 ---
