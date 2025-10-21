@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link rel="stylesheet" href="./about.css" />
+  </head>
+  <body>
+    <header>
+      <h1>About Me</h1>
+      <p class="intro">A glimpse into my journey, goals, and reflections.</p>
+    </header>
+
+    <main data-testid="test-about-page">
+      <!-- Bio Section -->
+      <section data-testid="test-about-bio">
+        <h2>My Bio</h2>
+        <p>
+          Hello! I’m <strong>Martins Chibueze</strong>, a passionate and curious
+          front-end developer who loves bringing designs to life through clean
+          code and meaningful user experiences. I’m focused on writing semantic,
+          accessible, and responsive web applications that make a difference.
+        </p>
+      </section>
+
+      <!-- Goals Section -->
+      <section data-testid="test-about-goals">
+        <h2>My Goals in This Program</h2>
+        <ul>
+          <li>Improve my skills in semantic HTML and accessibility.</li>
+          <li>Master CSS layouts and responsive design principles.</li>
+          <li>Build scalable and maintainable front-end architectures.</li>
+          <li>Collaborate effectively in team-based projects.</li>
+        </ul>
+      </section>
+
+      <!-- Areas of Low Confidence -->
+      <section data-testid="test-about-confidence">
+        <h2>Areas of Low Confidence</h2>
+        <p>
+          I sometimes feel less confident when tackling complex JavaScript
+          logic, performance optimization, and advanced state management in
+          frameworks like React. However, I’m determined to keep practicing and
+          learning until these areas become strengths.
+        </p>
+      </section>
+
+      <!-- Note to Future Self -->
+      <section data-testid="test-about-future-note">
+        <h2>Note to My Future Self</h2>
+        <p>
+          Never stop learning! Remember how far you’ve come, and how much more
+          you can achieve through persistence and curiosity. Keep exploring new
+          technologies and don’t let fear of failure hold you back.
+        </p>
+      </section>
+
+      <!-- Extra Thoughts -->
+      <section data-testid="test-about-extra">
+        <h2>Extra Thoughts</h2>
+        <p>
+          This program has been an incredible journey so far. I’ve met amazing
+          people, learned valuable lessons, and grown not just as a developer
+          but also as a problem solver. I’m truly grateful for this experience.
+        </p>
+      </section>
+    </main>
+    
+    <button
+      class="about-btn"
+      aria-label="Go to contact page"
+      onclick="window.location.href='contact.html'"
+    >
+      Contact Me
+    </button>
+
+    <footer class="about-footer">
+      <p>&copy; 2025 Martins Chibueze. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
