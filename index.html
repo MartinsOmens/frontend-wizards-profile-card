@@ -11,7 +11,7 @@
       <figure>
         <img
           data-testid="test-user-avatar"
-          src="./images/image-4.png"
+          src="./images/profile.jpg"
           alt="Profile Photo of Martins Chibueze"
           class="profile-image"
         />
@@ -87,6 +87,28 @@
           </section>
         </div>
       </div>
+      <section aria-labelledby="cta" class="cta-wrap">
+        <button
+          type="button"
+          id="about-btn"
+          class="cta-button"
+          data-testid="test-about-button"
+          onclick="window.location.href='about.html'"
+          aria-label="Go to About page"
+        >
+          About Me
+        </button>
+        <button
+          type="button"
+          id="contact"
+          class="cta-outline-button"
+          data-testid="test-contact-button"
+          onclick="window.location.href='contact.html'"
+          aria-label="Go to Contact page"
+        >
+          Contact Me
+        </button>
+      </section>
     </article>
 
     <script src="./index.js"></script>

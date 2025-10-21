@@ -76,7 +76,7 @@ section ul li {
   margin-bottom: 0.5rem;
 }
 
-.about-btn {
+.contact-btn {
   width: 100%;
   max-width: 1200px;
   font-size: 20px;
@@ -87,7 +87,7 @@ section ul li {
   border: 0;
   border-radius: 8px;
 }
-.about-btn:hover {
+.contact-btn:hover {
   background-color: #163c79;
 }
 
@@ -104,23 +104,22 @@ section ul li {
   border-top: 1.5px solid #374151;
 }
 
-.about-footer {
-  
-}
-
-
 /* === RESPONSIVE DESIGN === */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   main {
-    margin: 1.5rem;
-    padding: 1.5rem;
+    width: 90%;
+    padding: 1rem 3rem;
+  }
+  .about-btn, .about-footer{
+    width: 90%;
   }
 
   header h1 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
 
   section h2 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
+

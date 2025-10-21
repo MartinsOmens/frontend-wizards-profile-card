@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./contact.css" />
+  </head>
+  <body>
+    <main>
+      <div class="title_text">
+        <h1>Contact Me</h1>
+        <p>
+          Hi dear, contact me and be rest assured that I’m committed to helping
+          however I can.
+        </p>
+      </div>
+
+      <!-- Contact Form -->
+      <form id="contact-form" novalidate>
+        <div class="form-wrap">
+          <label for="name">Full name</label>
+          <input
+            id="name"
+            name="name"
+            type="text"
+            placeholder="Enter your full name"
+            data-testid="test-contact-name"
+            aria-required="true"
+            aria-describedby="test-contact-error-name"
+          />
+          <p
+            id="test-contact-error-name"
+            data-testid="test-contact-error-name"
+            class="error-message"
+            aria-live="assertive"
+          ></p>
+        </div>
+
+        <div class="form-wrap">
+          <label for="email">Email</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="name@example.com"
+            data-testid="test-contact-email"
+            aria-required="true"
+            aria-describedby="test-contact-error-email"
+          />
+          <p
+            id="test-contact-error-email"
+            data-testid="test-contact-error-email"
+            class="error-message"
+            aria-live="assertive"
+          ></p>
+        </div>
+
+        <div class="form-wrap">
+          <label for="subject">Subject</label>
+          <input
+            id="subject"
+            name="subject"
+            type="text"
+            placeholder="Enter your subject"
+            data-testid="test-contact-subject"
+            aria-required="true"
+            aria-describedby="test-contact-error-subject"
+          />
+          <p
+            id="test-contact-error-subject"
+            data-testid="test-contact-error-subject"
+            class="error-message"
+            aria-live="assertive"
+          ></p>
+        </div>
+
+        <div class="form-wrap">
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            data-testid="test-contact-message"
+            placeholder="Send me a message and I'll reply as soon as possible..."
+            aria-required="true"
+            aria-describedby="test-contact-error-message"
+          ></textarea>
+          <p
+            id="test-contact-error-message"
+            data-testid="test-contact-error-message"
+            class="error-message"
+            aria-live="assertive"
+          ></p>
+        </div>
+
+        <!-- Success message -->
+        <p
+          id="test-contact-success"
+          data-testid="test-contact-success"
+          class="success-message"
+          role="status"
+          aria-live="polite"
+          tabindex="-1"
+          hidden
+        >
+          ✅ Thank you — your message has been sent successfully!
+        </p>
+
+        <button
+          type="submit"
+          data-testid="test-contact-submit"
+          class="submit-btn"
+        >
+          Send a Message
+        </button>
+      </form>
+    </main>
+
+    <!------ GO TO ABOUT ME PAGE  -->
+
+    <button
+      class="about-btn"
+      aria-label="Go to about page"
+      onclick="window.location.href='about.html'"
+    >
+      Go to About Me
+    </button>
+
+    <footer class="contact-footer" data-testid="test-contact-footer">
+      <p>&copy; 2025 Martins Chibueze. All rights reserved.</p>
+    </footer>
+
+    <script src="./contact.js"></script>
+  </body>
+</html>
